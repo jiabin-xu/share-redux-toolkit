@@ -69,7 +69,7 @@ const reducer = createReducer(initialState, (builder) => {
 
 # CreateReducer 实现
 
-```ts {all|3|7-11|21-26|30-35}{maxHeight:'300px'}
+```ts {all|3|7-11|21-26|30-35}{maxHeight:'400px'}
 export function createReducer<S extends NotFunction<any>>(
   initialState: S | (() => S),
   mapOrBuilderCallback 
@@ -123,7 +123,7 @@ let getInitialState: () => S
 
 # Dva
   
-```ts
+```ts 
 app.model({
   namespace: 'count',
   state: 0,

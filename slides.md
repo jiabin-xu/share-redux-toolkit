@@ -33,11 +33,7 @@ title: Welcome to Slidev
     <carbon-logo-github />
   </a>
 </div>
----
 
-# 大纲
-
-<Toc></Toc>
 ---
 src: ./pages/toolkit.md
 hide: false
@@ -47,8 +43,33 @@ src: ./pages/redux.md
 hide: false
 ---
 ---
+layout: cover
+---
+# Show me the code
+
+
+
+---
 src: ./pages/action.md
 ---
 ---
 src: ./pages/reducer.md
 ---
+---
+src: ./pages/slice.md
+---
+---
+src: ./pages/async.md
+---
+---
+src: ./pages/case.md
+---
+---
+src: ./pages/toolkit.md
+hide: false
+---
+---
+layout: cover
+---
+
+# QA
